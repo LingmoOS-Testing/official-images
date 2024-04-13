@@ -1,6 +1,7 @@
 Maintainers: Elysia <c.elysia@foxmail.com> (@ganyuanzhen)
 GitRepo: https://github.com/LingmoOS-Testing/docker-lingmo-artifacts.git
 
+Tags: beta
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 # https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-amd64
 amd64-GitFetch: refs/heads/dist-amd64
