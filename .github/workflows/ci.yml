@@ -7,7 +7,7 @@ on:
     - cron: 0 0 * * 0
 env:
   REGISTRY: ghcr.io
-  BASHBREW_NAMESPACE: ghcr.io/lingmo
+  BASHBREW_NAMESPACE: ghcr.io/lingmoos-testing
   
 defaults:
   run:
