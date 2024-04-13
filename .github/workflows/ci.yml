@@ -42,5 +42,5 @@ jobs:
 
       - name: Push to registry
         run: |
-          ./bashbrew/bashbrew.sh push --target-namespace ${ env.BASHBREW_NAMESPACE } ./library/lingmo
+          ./bashbrew/bashbrew.sh push --target-namespace $BASHBREW_NAMESPACE ./library/lingmo
 
