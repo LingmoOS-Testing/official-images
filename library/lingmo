@@ -1,17 +1,15 @@
 Maintainers: Elysia <c.elysia@foxmail.com> (@ganyuanzhen)
 GitRepo: https://github.com/LingmoOS-Testing/docker-lingmo-artifacts.git
 
-Tags: beta
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-# https://github.com/debuerreotype/docker-debian-artifacts/tree/dist-amd64
-amd64-GitFetch: refs/heads/dist-amd64
-amd64-GitCommit: 7c0f66f7a612637aae9803388dd090a08398dc75
-
 # polaris -- LingmoOS 2.0 Unreleased
 Tags: polaris, 2, 2.0, latest
+GitFetch: refs/heads/dist-amd64
+GitCommit: 7c0f66f7a612637aae9803388dd090a08398dc75
 Architectures: amd64
 Directory: polaris
 
 Tags: polaris-slim, 2-slim, 2.0-slim
+GitFetch: refs/heads/dist-amd64
+GitCommit: 7c0f66f7a612637aae9803388dd090a08398dc75
 Architectures: amd64
 Directory: polaris/slim
