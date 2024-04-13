@@ -26,3 +26,6 @@ jobs:
           git clone https://github.com/docker-library/bashbrew.git bashbrew
           chmod +x bashbrew/bashbrew.sh
           ./bashbrew/bashbrew.sh build ./library/lingmo
+
+      - name: List Built Images
+        run: docker images
