@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Get bashbrew
-      - run: |
+        run: |
           git clone https://github.com/docker-library/bashbrew.git bashbrew
           chmox +x bashbrew/bashbrew.sh
           ./bashbrew/bashbrew.sh build lingmo
