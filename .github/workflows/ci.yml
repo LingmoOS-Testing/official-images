@@ -25,4 +25,4 @@ jobs:
         run: |
           git clone https://github.com/docker-library/bashbrew.git bashbrew
           chmod +x bashbrew/bashbrew.sh
-          ./bashbrew/bashbrew.sh build lingmo
+          ./bashbrew/bashbrew.sh build ./library/lingmo
