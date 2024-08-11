@@ -2,13 +2,13 @@ Maintainers: Elysia <c.elysia@foxmail.com> (@ganyuanzhen)
 GitRepo: https://github.com/LingmoOS-Testing/docker-lingmo-artifacts.git
 
 # polaris -- LingmoOS 2.0 Unreleased
-Tags: polaris, 2, 2.0, latest
+Tags: hydrogen, 2, 2.0, latest
 GitFetch: refs/heads/dist-amd64
 GitCommit: fcd86e137f39b8771ce23f0299d1ce5990f846cc
 Architectures: amd64
 Directory: hydrogen
 
-Tags: polaris-slim, 2-slim, 2.0-slim
+Tags: hydrogen-slim, 2-slim, 2.0-slim
 GitFetch: refs/heads/dist-amd64
 GitCommit: fcd86e137f39b8771ce23f0299d1ce5990f846cc
 Architectures: amd64
