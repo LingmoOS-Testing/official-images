@@ -4,12 +4,12 @@ GitRepo: https://github.com/LingmoOS-Testing/docker-lingmo-artifacts.git
 # polaris -- LingmoOS 2.0 Unreleased
 Tags: hydrogen, 2, 2.0, latest
 GitFetch: refs/heads/dist-amd64
-GitCommit: fcd86e137f39b8771ce23f0299d1ce5990f846cc
+GitCommit: 8d3fac0ecda54c96010a9ed12f1b957da53efdd9
 Architectures: amd64
 Directory: hydrogen
 
 Tags: hydrogen-slim, 2-slim, 2.0-slim
 GitFetch: refs/heads/dist-amd64
-GitCommit: fcd86e137f39b8771ce23f0299d1ce5990f846cc
+GitCommit: 8d3fac0ecda54c96010a9ed12f1b957da53efdd9
 Architectures: amd64
 Directory: hydrogen/slim
